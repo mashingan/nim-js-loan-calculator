@@ -1,0 +1,24 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# vim swap and backup files
+*.un~
+*.swap
+
+# windows executable
+*.exe
+*.ilk
+*.pdb
+
+# cached folder
+nimcache/
+nim.cfg
+
+# built folder if available
+build/
